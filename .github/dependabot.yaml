@@ -10,6 +10,5 @@ updates:
   - package-ecosystem: "pip" # See documentation for possible values
     directory: "/" # Location of package manifests
     schedule:
-      interval: "weekly"
-      day: "daily"
+      interval: "daily"
       time: "20:12"
