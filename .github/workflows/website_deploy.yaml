@@ -33,7 +33,7 @@ jobs:
   deploy:
     needs: build
     # change this back  to  github.ref == 'refs/heads/main'
-    if: github.event_name == 'pull_request'
+    # if: github.event_name == 'pull_request'
     permissions:
       pages: write
       id-token: write
