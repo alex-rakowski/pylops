@@ -6,3 +6,10 @@ updates:
     schedule:
       interval: "daily"
       time: "20:07"
+  # Maintain dependencies for python packages
+  - package-ecosystem: "pip" # See documentation for possible values
+    directory: "/" # Location of package manifests
+    schedule:
+      interval: "weekly"
+      day: "daily"
+      time: "20:12"
