@@ -32,7 +32,7 @@ jobs:
 
   deploy:
     needs: build
-    if: github.ref == 'refs/heads/web-browser'
+    if: github.ref == 'refs/heads/dev'
     permissions:
       pages: write
       id-token: write
